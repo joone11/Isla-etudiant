@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte étudiant - ISLA Étudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="WhatsApp Image 2026-08-08 at 8.20.53 PM - Copie.jpeg" alt="ISLA Étudiant" class="logo-image">
+            </a>
+            <nav class="main-nav">
+                <a href="dashboard.html">Tableau de bord</a>
+
+                <a href="profil.html">Mon profil</a>
+                <a href="carte.html" class="active">Carte étudiant</a>
+                <a href="emploi.html">Emploi du temps</a>
+                <a href="examens.html">Examens</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="finances.html">Finances</a>
+                <a href="evenements.html">Événements</a>
+                <a href="login.html" class="nav-link-auth">Connexion</a>
+                <a href="register.html" class="nav-link-auth">Inscription</a>
+                <button id="logoutButton" class="btn btn-secondary">Déconnexion</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <span class="eyebrow">ESPACE ÉTUDIANT</span>
+                <h1>Carte d’étudiant numérique</h1>
+                <p>Votre carte officielle avec les informations essentielles de votre dossier étudiant.</p>
+
+                <div class="student-card">
+                    <div class="student-card__front">
+                        <div class="student-card__identity">
+                            <div class="student-card__photo">JD</div>
+                            <div>
+                                <p class="student-card__label">Étudiant</p>
+                                <h2>Jean Dupont</h2>
+                                <p>Licence Informatique</p>
+                            </div>
+                        </div>
+
+                        <div class="student-card__details">
+                            <div>
+                                <span>Matricule</span>
+                                <strong>ISLA-2026-014</strong>
+                            </div>
+                            <div>
+                                <span>Cycle</span>
+                                <strong>Licence 2</strong>
+                            </div>
+                            <div>
+                                <span>Campus</span>
+                                <strong>Abidjan Plateau</strong>
+                            </div>
+                            <div>
+                                <span>Naissance</span>
+                                <strong>12/04/2004</strong>
+                            </div>
+                            <div>
+                                <span>Contact</span>
+                                <strong>+225 07 00 00 00 00</strong>
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <strong>jean.dupont@isla.edu</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="student-card__back">
+                        <div class="student-card__chip"></div>
+                        <div class="student-card__meta">
+                            <p><span>Filière</span><strong>Informatique et Développement</strong></p>
+                            <p><span>Promotion</span><strong>2026</strong></p>
+                            <p><span>Statut</span><strong>Actif</strong></p>
+                            <p><span>Valide jusqu’au</span><strong>31/08/2026</strong></p>
+                        </div>
+                        <div class="student-card__qr">QR</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
