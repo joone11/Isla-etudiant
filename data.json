@@ -1,0 +1,172 @@
+{
+  "student": {
+    "id": "ISLA-2026-001",
+    "nom": "Kossi Mensah",
+    "prenom": "Jean",
+    "matricule": "ISLA2026001",
+    "filiere": "Informatique",
+    "niveau": "Licence 2",
+    "email": "etudiant@isla.tg",
+    "telephone": "+228 90 00 00 00",
+    "dateNaissance": "15/03/2005"
+  },
+
+  "dashboard": {
+    "coursCetteSemaine": 8,
+    "examensAVenir": 2,
+    "moyenneGenerale": 14.5,
+    "solde": 200000
+  },
+
+  "emploiDuTemps": [
+    {
+      "jour": "Lundi",
+      "date": "10/08/2026",
+      "heureDebut": "08:00",
+      "heureFin": "10:00",
+      "matiere": "Programmation Web",
+      "enseignant": "M. Koffi",
+      "salle": "Salle A12"
+    },
+    {
+      "jour": "Lundi",
+      "date": "10/08/2026",
+      "heureDebut": "10:30",
+      "heureFin": "12:30",
+      "matiere": "Base de données",
+      "enseignant": "Mme Mensah",
+      "salle": "Salle B04"
+    },
+    {
+      "jour": "Mardi",
+      "date": "11/08/2026",
+      "heureDebut": "08:00",
+      "heureFin": "10:00",
+      "matiere": "Réseaux",
+      "enseignant": "M. Lawson",
+      "salle": "Salle A08"
+    },
+    {
+      "jour": "Mercredi",
+      "date": "12/08/2026",
+      "heureDebut": "13:00",
+      "heureFin": "15:00",
+      "matiere": "Systèmes d'information",
+      "enseignant": "M. Agbeko",
+      "salle": "Salle C02"
+    }
+  ],
+
+  "examens": [
+    {
+      "matiere": "Programmation Web",
+      "date": "18/08/2026",
+      "heure": "08:00",
+      "salle": "Salle A12",
+      "statut": "À venir"
+    },
+    {
+      "matiere": "Base de données",
+      "date": "21/08/2026",
+      "heure": "10:00",
+      "salle": "Salle B04",
+      "statut": "À venir"
+    }
+  ],
+
+  "resultats": {
+    "moyenneGenerale": 14.5,
+    "matieresValidees": 6,
+    "matieresARevalider": 2,
+    "totalMatieres": 8,
+    "matieres": [
+      {
+        "code": "INF101",
+        "matiere": "Programmation Web",
+        "note": 16,
+        "credit": 4,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF102",
+        "matiere": "Base de données",
+        "note": 15,
+        "credit": 4,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF103",
+        "matiere": "Réseaux",
+        "note": 14,
+        "credit": 3,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF104",
+        "matiere": "Systèmes d'information",
+        "note": 13,
+        "credit": 3,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF105",
+        "matiere": "Algorithmique",
+        "note": 12,
+        "credit": 4,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF106",
+        "matiere": "Architecture des ordinateurs",
+        "note": 14,
+        "credit": 3,
+        "statut": "Validée"
+      },
+      {
+        "code": "INF107",
+        "matiere": "Mathématiques",
+        "note": 9,
+        "credit": 3,
+        "statut": "À revalider"
+      },
+      {
+        "code": "INF108",
+        "matiere": "Anglais",
+        "note": 8,
+        "credit": 2,
+        "statut": "À revalider"
+      }
+    ]
+  },
+
+  "finances": {
+    "montantTotal": 650000,
+    "montantPaye": 450000,
+    "resteAPayer": 200000,
+    "pourcentagePaye": 69.23
+  },
+
+  "evenements": [
+    {
+      "id": 1,
+      "titre": "Journée d'intégration",
+      "date": "15/08/2026",
+      "description": "Activité destinée aux étudiants de l'établissement.",
+      "lieu": "ISLA"
+    },
+    {
+      "id": 2,
+      "titre": "Rencontre étudiante",
+      "date": "22/08/2026",
+      "description": "Rencontre et échanges autour de la vie universitaire.",
+      "lieu": "Salle polyvalente"
+    },
+    {
+      "id": 3,
+      "titre": "Activité académique",
+      "date": "28/08/2026",
+      "description": "Activité liée à la vie académique de l'établissement.",
+      "lieu": "ISLA"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon profil - ISLA Étudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="WhatsApp Image 2026-08-08 at 8.20.53 PM - Copie.jpeg" alt="ISLA Étudiant" class="logo-image">
+            </a>
+            <nav class="main-nav">
+                <a href="dashboard.html">Tableau de bord</a>
+
+                <a href="profil.html" class="active">Mon profil</a>
+                <a href="carte.html">Carte étudiant</a>
+                <a href="emploi.html">Emploi du temps</a>
+                <a href="examens.html">Examens</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="finances.html">Finances</a>
+                <a href="evenements.html">Événements</a>
+                <a href="login.html" class="nav-link-auth">Connexion</a>
+                <a href="register.html" class="nav-link-auth">Inscription</a>
+                <button id="logoutButton" class="btn btn-secondary">Déconnexion</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <span class="eyebrow">ESPACE ÉTUDIANT</span>
+                <h1>Mon profil</h1>
+                <p>Voici votre profil étudiant sous forme de dossier personnel officiel.</p>
+
+                <div class="profile-sheet section-spacing">
+                    <div class="profile-sheet__header">
+                        <div class="profile-avatar">JD</div>
+                        <div>
+                            <p class="profile-sheet__tag">Profil étudiant</p>
+                            <h2>Jean Dupont</h2>
+                            <p>Étudiant en Licence Informatique · Promotion 2026</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-sheet__body">
+                        <div class="profile-sheet__row">
+                            <span>Prénom</span>
+                            <strong id="profileFirstName">Jean</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Nom</span>
+                            <strong id="profileLastName">Dupont</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Âge</span>
+                            <strong id="profileAge">22 ans</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Date de naissance</span>
+                            <strong id="profileBirthDate">12 avril 2004</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Filière</span>
+                            <strong id="profileFiliere">Informatique</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Niveau</span>
+                            <strong id="profileNiveau">Licence 2</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Spécialité</span>
+                            <strong id="profileSpecialite">Développement logiciel</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Option</span>
+                            <strong id="profileOption">Cybersécurité</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Email</span>
+                            <strong id="profileEmail">jean.dupont@isla.edu</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Téléphone</span>
+                            <strong id="profilePhone">+225 07 00 00 00 00</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Adresse</span>
+                            <strong id="profileAddress">Abidjan, Côte d’Ivoire</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Campus</span>
+                            <strong id="profileCampus">Abidjan Plateau</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Responsable</span>
+                            <strong id="profileResponsable">Prof. Koné</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Contact parent</span>
+                            <strong id="profileContactParent">Mme Dupont</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Statut</span>
+                            <strong id="profileStatut">Étudiant actif</strong>
+                        </div>
+                        <div class="profile-sheet__row">
+                            <span>Année académique</span>
+                            <strong id="profileAcademicYear">2025–2026</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

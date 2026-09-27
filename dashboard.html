@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tableau de bord - ISLA Étudiant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                <img src="WhatsApp Image 2026-08-08 at 8.20.53 PM - Copie.jpeg" alt="ISLA Étudiant" class="logo-image">
+            </a>
+
+            <nav class="main-nav">
+                <a href="dashboard.html" class="active">Tableau de bord</a>
+
+                <a href="profil.html">Mon profil</a>
+                <a href="carte.html">Carte étudiant</a>
+                <a href="emploi.html">Emploi du temps</a>
+                <a href="examens.html">Examens</a>
+                <a href="resultats.html">Résultats</a>
+                <a href="finances.html">Finances</a>
+                <a href="evenements.html">Événements</a>
+
+                <a href="login.html" class="nav-link-auth">Connexion</a>
+                <a href="register.html" class="nav-link-auth">Inscription</a>
+
+                <button id="logoutButton" class="btn btn-secondary">Déconnexion</button>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="section">
+
+            <div class="container">
+
+                <span class="eyebrow">
+                    ESPACE ÉTUDIANT
+                </span>
+
+                <h1>
+                    Tableau de bord
+                </h1>
+
+                <p id="dashboardWelcome">
+                    Bienvenue dans votre espace étudiant ISLA.
+                </p>
+
+                <!-- Roles moved to index.html as requested -->
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon">01</div>
+
+                        <h3>
+                            Cours cette semaine
+                        </h3>
+
+                        <p id="coursesCountValue">
+                            8 séances programmées
+                        </p>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">02</div>
+
+                        <h3>
+                            Examens à venir
+                        </h3>
+
+                        <p id="examCountValue">
+                            2 examens programmés
+                        </p>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">03</div>
+
+                        <h3>
+                            Moyenne générale
+                        </h3>
+
+                        <p id="moyenneValue">
+                            14,5 / 20
+                        </p>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon">04</div>
+
+                        <h3>
+                            Solde restant
+                        </h3>
+
+                        <p id="soldeValue">
+                            200 000 FCFA
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">05</div>
+
+                        <h3>
+                            Carte numérique
+                        </h3>
+
+                        <p>
+                            Consultez votre carte d’étudiant numérique ici.
+                        </p>
+
+                        <a href="carte.html" class="btn btn-secondary card-link-btn">
+                            Voir la carte
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 ISLA Étudiant
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

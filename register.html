@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription étudiant - ISLA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="WhatsApp Image 2026-08-08 at 8.20.53 PM - Copie.jpeg" alt="ISLA Étudiant" class="logo-image">
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">Accueil</a>
+                <a href="login.html">Connexion</a>
+                <a href="register.html" class="active">S’inscrire</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container narrow-container">
+                <span class="eyebrow">ESPACE ÉTUDIANT</span>
+                <h1>Créer mon compte</h1>
+
+                <div class="login-card section-spacing">
+                    <form id="registerForm">
+                        <div class="form-group">
+                            <label for="fullName">Nom complet</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Votre nom complet" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="usernameReg">Identifiant</label>
+                            <input type="text" id="usernameReg" name="usernameReg" placeholder="Choisissez un identifiant" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="passwordReg">Mot de passe</label>
+                            <input type="password" id="passwordReg" name="passwordReg" placeholder="Au moins 10 caractères" required>
+                        </div>
+
+                        <div id="registerMessage" class="form-message" aria-live="polite"></div>
+
+                        <button type="submit" class="btn btn-primary btn-full">S’inscrire</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

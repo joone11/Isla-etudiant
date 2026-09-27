@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - ISLA Étudiant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="WhatsApp Image 2026-08-08 at 8.20.53 PM - Copie.jpeg" alt="ISLA Étudiant" class="logo-image">
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">Accueil</a>
+                <a href="login.html" class="active">Connexion</a>
+                <a href="register.html">S’inscrire</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <span class="eyebrow">ESPACE PRIVÉ</span>
+                <h1>Connexion</h1>
+
+                <div class="login-card section-spacing">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Identifiant</label>
+                            <input type="text" id="username" name="username" placeholder="Votre identifiant" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Mot de passe</label>
+                            <input type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+                        </div>
+
+                        <div id="loginMessage" class="form-message" aria-live="polite"></div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Se connecter</button>
+                    </form>
+
+                    <p style="margin-top:12px;">Pas encore de compte ? <a href="register.html">Inscrivez-vous</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
